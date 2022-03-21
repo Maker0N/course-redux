@@ -1,0 +1,45 @@
+{
+  "name": "boilerplate-on-webpack",
+  "version": "1.0.0",
+  "main": "index.jsx",
+  "license": "MIT",
+  "dependencies": {
+    "babel-polyfill": "6.26.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "dotenv": "^16.0.0",
+    "html-webpack-plugin": "^5.3.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.5",
+    "react-router-dom": "5.3.0",
+    "redux": "^4.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.24.0",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.2.0",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0"
+  },
+  "scripts": {
+    "dev:build": "webpack --config webpack.dev.config.js",
+    "dev:watch": "webpack-dev-server --config webpack.dev.config.js",
+    "prod:build": "webpack --config webpack.prod.config.js"
+  }
+}

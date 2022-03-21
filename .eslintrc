@@ -1,0 +1,15 @@
+{
+  "parser": "babel-eslint",
+  "root": true,
+  "extends": ["airbnb", "plugin:react/recommended"],
+  "globals": {
+    "document": true
+  },
+  "rules": {
+    "semi": "off"
+  },
+  "env": {
+        "browser": true,
+        "node": true
+    }
+}
